@@ -3,11 +3,11 @@
 /**
  * main - Printing
  *
- * Return: Always 0(Successul)
+ * Return: Always 0 (Successul)
  *
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return(0);
+	return (0);
 }
