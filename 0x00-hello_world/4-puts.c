@@ -4,6 +4,7 @@
  * main - Printing
  *
  * Return: Always 0 (Successul)
+ *
  */
 int main(void)
 {
