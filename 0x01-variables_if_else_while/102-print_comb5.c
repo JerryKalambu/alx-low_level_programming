@@ -31,9 +31,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			
+			++n1
 		}
-		
+		++n2
 	}
 	putchar('\n');
 	return (0);
