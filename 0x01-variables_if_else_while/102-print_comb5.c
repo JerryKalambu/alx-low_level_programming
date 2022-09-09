@@ -19,21 +19,21 @@ int main(void)
 		{
 			if (n2 != n1)
 			{
-				putchar ((n1 / 10) + 48);
-				putchar ((n1 % 10) + 48);
-				putchar (' ');
-				putchar ((n2 / 10) + 48);
-				putchar ((n2 % 10) + 48);
+				putchar((n1 / 10) + 48);
+				putchar((n1 % 10) + 48);
+				putchar(' ');
+				putchar((n2 / 10) + 48);
+				putchar((n2 % 10) + 48);
 
 				if (n1 != 98 || n2 != 98)
 				{
-					putchar (',');
-					putchar (' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
-			++n1
+			++n1;
 		}
-		++n2
+		++n2;
 	}
 	putchar ('\n');
 	return (0);
