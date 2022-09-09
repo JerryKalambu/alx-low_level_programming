@@ -8,7 +8,7 @@
  *
  *Return: 0
  */
-int main()
+int main(void)
 {
 	int n1 =0, n2;
 
@@ -36,5 +36,5 @@ int main()
 		++n1;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
