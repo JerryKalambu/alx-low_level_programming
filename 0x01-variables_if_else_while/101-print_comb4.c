@@ -4,7 +4,7 @@
 /**
  * main - print possible combo of 3
  *
- * Return: 0
+ * Return: 0;
  */
 
 int main(void)
