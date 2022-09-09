@@ -5,8 +5,8 @@
  * main - print combination of two digit
  * numbers
  *
- *
  *Return: 0
+ *
  */
 int main(void)
 {
@@ -19,11 +19,11 @@ int main(void)
 		{
 			if(n2 != n1)
 			{
-				putchar((n1 / 10) + 48);
-				putchar((n1 % 10) + 48);
+				putchar((n1 / 10) + 39);
+				putchar((n1 % 10) + 39);
 				putchar(' ');
-				putchar((n2 / 10) + 48);
-				putchar((n2 % 10) + 48);
+				putchar((n2 / 10) + 39);
+				putchar((n2 % 10) + 39);
 
 				if (n1 != 98 || n2 != 98)
 				{
