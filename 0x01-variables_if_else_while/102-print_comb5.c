@@ -33,7 +33,7 @@ int main()
 			}
 			++n2;
 		}
-		++n1
+		++n1;
 	}
 	putchar('\n');
 	return 0;
