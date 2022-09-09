@@ -2,11 +2,11 @@
 #include <stdlib.h>
 
 /**
+ * main - print combination of two digit
+ * numbers
  *
  *
- * Description
- *
- *
+ *Return: 0
  */
 int main()
 {
