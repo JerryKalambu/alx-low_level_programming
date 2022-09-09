@@ -6,10 +6,10 @@
  *
  * Return: 0;
  */
-
 int main(void)
 {
 	int i, p, m;
+
 	for (i = 0; i <= 9; i++)
 	{
 		for (p = 1; p <= 9; p++)
