@@ -1,12 +1,8 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <main.h>
 
 /**
  * main - prints _putchar
- *
- * Description: go back to the next line 
- *
- * return: always (success)
+ * return: always 0
  */
 int main(void)
 {
