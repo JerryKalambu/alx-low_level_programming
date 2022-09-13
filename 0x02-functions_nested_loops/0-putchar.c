@@ -4,9 +4,9 @@
 /**
  * main - prints _putchar
  *
- * description: go back to the next line 
+ * Description: go back to the next line 
  *
- * return: always (successful)
+ * return: always (success)
  */
 int main(void)
 {
