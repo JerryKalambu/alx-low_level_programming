@@ -4,11 +4,12 @@
 /**
  * main - prints _putchar
  *
- * return: always (successful)i
+ * description: go back to the next line 
+ *
+ * return: always (successful)
  */
-int main()
+int main(void)
 {
     printf("_putchar\n");
-    return 0;
+    return (0);
 }
-
