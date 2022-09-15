@@ -1,6 +1,8 @@
 #include "main.h" 
+
 /** 
-* print_number - prints numbers 
+* print_number - prints numbers
+*
 * @n: number to be printed
 *
 * Return:0 
