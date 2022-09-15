@@ -1,13 +1,12 @@
 #include<stdio.h>
 #include "main.h"
 
-/** 
-* main - check the code
-*
-* @n: number to be printed
-*
-* Return:0 
-*/ 
+/**
+ * print_number - prints a number
+ * @n: The number to print
+ *
+ * Return: always 0
+ */ 
  
 void print_number(int n) 
 { 
