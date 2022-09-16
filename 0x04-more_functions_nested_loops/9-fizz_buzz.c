@@ -5,8 +5,7 @@
  * main - program that prints either number
  * or fizz or buzz or fizzBuzz
  *
- *
- * Return: always 0
+ *Return: always 0
  */
 
 int main(void)
