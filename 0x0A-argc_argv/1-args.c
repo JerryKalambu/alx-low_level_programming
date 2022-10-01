@@ -2,16 +2,16 @@
 #include "main.h"
 
 /**
- * print the name of the program
- * @argc: count arguments
+ * main - write a program that print the number of argument
+ * @args: count arguments
  * @argv: argument
  *
  * return: always 0
  */
 
-int main(int argc, char *argv[])
+int main(int args, char *argv[])
 {
-	(void)argv; /*Ignore argv*/
 	printf("%d\n", argc - 1);
+	(void)argv;
 	return (0);
 }
