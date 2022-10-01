@@ -11,11 +11,11 @@
 
 int main(int argc, char *argv[])
 {
-	int result = 0, num1, num2;
-	if (argc !=3)
+	int result, num1, num2;
+	if (argc != 3)
 	{
 		printf("%s\n", "Error");
-		return (10;
+		return (10);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
