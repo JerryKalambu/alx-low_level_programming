@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * main - this is a function to print
  * @argc: argc parameter
@@ -18,6 +18,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", "Error");
 		return (1);
 	}
+
 	num = atoi(argv[1]);
 	if (num < 0)
 	{
