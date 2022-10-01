@@ -11,17 +11,18 @@
 
 int main(int argc, char *argv[])
 {
-	int index, multiplication;
-	multiplication = 1;
-	if (argc < 3)
+	int result = 0, num1, num2;
+	if (argc !=3)
 	{
-		printf("Error\n");
-		return (1);
+		printf("%s\n", "Error");
+		return (10;
 	}
-	for (index = 1; index < argc; index++)
-	{
-		multiplication = multiplication * atoi(argv[index]);
-	}
-	printf("%d\n", multiplication);
+	num1 = atoi(argv[1]);
+	num2 = atoi(argv[2]);
+	result = num1 * num2;
+
+	printf("%d\n", result);
 	return (0);
 }
+
+
